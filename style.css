@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 300;
+  background-position: center;
+}
+
+#input,
+span.btn {
+  display: none;
+}
+
+.editMode #input{
+    display: block;
+}
+.editMode span.btn {
+  display: inline-block;
+}
+
+.editMode #row {
+  display: none;
+
+}
